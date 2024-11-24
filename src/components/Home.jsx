@@ -10,14 +10,14 @@ import Review from "./Review";
 function Home() {
 
   return (
-   <div className="mx-4 mt-20">
+   <>
 <Carousel/>
 <NewProduct/>
 <Discount/>
 <PopularCategories/>
 <Review/>
 <Footer/>
-</div>
+</>
   )
 }
 export default Home;

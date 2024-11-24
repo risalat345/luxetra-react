@@ -23,7 +23,7 @@ function MobileProduct() {
   };
 
   return (
-    <div className="mobileProduct text-black w-[90%] max-w-[1200px] mx-auto">
+    <div className="mobileProduct mt-14 text-black w-[90%] max-w-[1200px] mx-auto">
       <h1 className="font-bold text-4xl text-center my-4 font-mono">
         Mobile Phones
       </h1>

@@ -22,7 +22,7 @@ const Sofa = () => {
   };
 
   return (
-    <div className="w-[90%] max-w-[1200px] mx-auto">
+    <div className="w-[90%] max-w-[1200px] mx-auto mt-14">
       <h1 className="text-center font-mono font-bold text-4xl my-4">Sofa</h1>
       <div className="card-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {sofasData.map((sofa) => (

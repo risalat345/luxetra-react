@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="overflow-auto px-5 md:px-10 min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div className="mt-20 overflow-auto px-5 md:px-10 min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
       {/* Heading Section */}
       <p className="text-3xl text-center font-mono font-bold text-black mt-5">Contact Us</p>
       <p className="text-center text-sm md:text-base">Get in touch, we are here to help you.</p>

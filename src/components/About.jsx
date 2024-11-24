@@ -2,7 +2,7 @@ import React from 'react'
 import banner from "../img/banner.png"
 const About = () => {
   return (
-    <div className='mx-4'>
+    <div className='mx-4 mt-20'>
       <h1 className='text-4xl text-center font-bold'>About Us</h1>
        <div className='w-full md:flex my-5 h-fit gap-2'>
        <div className="h-[60%] my-auto md:w-3/6  overflow-hidden">

@@ -18,7 +18,7 @@ const Carousel = () => {
   }, []); // Empty dependency array to run only once on mount
 
   return (
-    <div className="bg-black mt-4 mx-auto overflow-hidden w-full md:w-10/12 lg:w-8/12 max-w-3xl rounded-lg shadow-lg relative">
+    <div className="bg-black mt-20 mx-auto overflow-hidden w-full md:w-10/12 lg:w-8/12 max-w-3xl rounded-lg shadow-lg relative">
       <div
         className="flex transition-transform duration-500"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}

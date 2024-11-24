@@ -17,7 +17,7 @@ const NewProduct = () => {
             title: 'Shoes',
             description: 'Shoes are items of footwear intended to protect and comfort the human foot.',
             price: 40,
-            image: 'https://th.bing.com/th/id/R.ee10f65911496caccbee95f1523c9ab5?rik=OZYlcNRjW1O%2fuQ&riu=http%3a%2f%2fwww.freepngimg.com%2fdownload%2fshoes%2f6-2-shoes-png-file.png&ehk=bQ6ogRGbFWHKccRsg3xafCIzLlSObWX9TmWlhn1pTik%3d&risl=&pid=ImgRaw&r=0',
+            image: 'https://th.bing.com/th/id/R.588c91bfba1ed32b8b0ae41dc7fb7c4d?rik=2cAi1QHrzWsBpQ&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fshoes-png--1200.png&ehk=LDK2zKZ4gGD3lYE7ncWJOb8tGdJLrU046BiOz1wqbAQ%3d&risl=&pid=ImgRaw&r=0',
         },
         {
             id: 2,
@@ -31,7 +31,7 @@ const NewProduct = () => {
             title: 'Transparent Sunglass',
             description: 'Transparent sunglasses offer a stylish, modern look with clear frames.',
             price: 10,
-            image: 'https://pngimg.com/uploads/sunglasses/sunglasses_PNG21.png',
+            image: 'https://th.bing.com/th/id/R.5e06e0c7470552e2c21bc225260a7a7c?rik=7CE%2fstwROrjCrw&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f1%2fCool-Sunglass-PNG-Image.png&ehk=pd2fhDRsh8pOF%2fWliZVsTK%2fl43G7CT6nfvp0eIKt128%3d&risl=&pid=ImgRaw&r=0',
         },
     ];
 

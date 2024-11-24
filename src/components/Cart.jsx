@@ -6,7 +6,11 @@ const Cart = () => {
   const { cart, removeFromCart } = useContext(CartContext);
 
   // Calculate cart total
-  const cartTotal = cart.reduce((total, item) => total + parseFloat(item.price), 0);
+  const cartTotal = cart.reduce((total, item) => {
+    const itemPrice = parseFloat(item.price);
+    return total + (isNaN(itemPrice) ? 0 : itemPrice); // Use 0 if item price is NaN
+  }, 0);
+
   const deliveryAmount = 5; // Fixed delivery amount
   const grandTotal = cartTotal + deliveryAmount;
 
@@ -66,7 +70,7 @@ const Cart = () => {
                 </div>
 
                 <h2 className="font-semibold text-lg w-fit md:w-3/12">{item.title}</h2>
-                <p className="text-gray-600 w-fit md:w-3/12 font-bold">${item.price}</p>
+                <p className="text-gray-600 w-fit md:w-3/12 font-bold">${parseFloat(item.price).toFixed(2)}</p>
                 <div className="md:w-3/12 w-fit">
                   <button
                     onClick={() => removeFromCart(item.id)}
@@ -102,9 +106,7 @@ const Cart = () => {
             <button
               onClick={handlePayment}
               disabled={!stripe || isProcessing}
-              className={`mt-4 w-full py-2 rounded-lg ${
-                isProcessing ? 'bg-gray-400' : 'bg-blue-500 hover:bg-blue-600'
-              } text-white`}
+              className={`mt-4 w-full py-2 rounded-lg ${isProcessing ? 'bg-gray-400' : 'bg-blue-500 hover:bg-blue-600'} text-white`}
             >
               {isProcessing ? 'Processing...' : `Pay $${grandTotal.toFixed(2)}`}
             </button>
@@ -112,9 +114,7 @@ const Cart = () => {
             {/* Payment Status Message */}
             {paymentStatus && (
               <div
-                className={`mt-4 text-center font-bold ${
-                  paymentStatus.includes('successful') ? 'text-green-500' : 'text-red-500'
-                }`}
+                className={`mt-4 text-center font-bold ${paymentStatus.includes('successful') ? 'text-green-500' : 'text-red-500'}`}
               >
                 {paymentStatus}
               </div>

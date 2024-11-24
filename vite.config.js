@@ -1,5 +1,6 @@
-import { defineConfig } from 'vite';
-
+import { defineConfig } from 'vite'; // Ensure this is at the top
+import react from '@vitejs/plugin-react';
 export default defineConfig({
-  base: '/luxetra-react/', // Add your repository name here
+  plugins: [react()],
+  base: '/luxetra-react/', // Set this to your repository name
 });

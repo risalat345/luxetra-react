@@ -86,10 +86,10 @@ export const products=[
     {id:10,title:"Alarm Clock",price:"10$",image:"https://www.pngall.com/wp-content/uploads/5/Vintage-Alarm-Clock-PNG-Picture.png"}
   ]
   export const headphones=[
-    {id:1,title:"Xbox",price:"20$",image:"https://th.bing.com/th/id/R.86c1ac8bac43ea337f7fe9da5c87a7fd?rik=4TP%2bkA%2bsJsHrTQ&riu=http%3a%2f%2fpngimg.com%2fuploads%2fheadphones%2fheadphones_PNG7659.png&ehk=FRHqHTb5C90KG%2bD20YyKsqcKwrtvTI%2frb67qZvjX7jQ%3d&risl=&pid=ImgRaw&r=0"},
-    {id:2,title:"Xbox",price:"20$",image:"https://th.bing.com/th/id/R.65729fdeff416fac6b2b179f868299be?rik=IQWIKCeYUL8AbQ&pid=ImgRaw&r=0"},
-    {id:3,title:"Xbox",price:"20$",image:"https://static.vecteezy.com/system/resources/previews/001/207/171/original/music-equipment-headphone-png.png"},
-    {id:4,title:"Xbox",price:"20$",image:"https://th.bing.com/th/id/R.dc8092f686d7bbe41040a0c70c2ab598?rik=9iYzMY4EX4s1SQ&pid=ImgRaw&r=0"},
+    {id:1,title:"Headphone",price:"20$",image:"https://th.bing.com/th/id/R.86c1ac8bac43ea337f7fe9da5c87a7fd?rik=4TP%2bkA%2bsJsHrTQ&riu=http%3a%2f%2fpngimg.com%2fuploads%2fheadphones%2fheadphones_PNG7659.png&ehk=FRHqHTb5C90KG%2bD20YyKsqcKwrtvTI%2frb67qZvjX7jQ%3d&risl=&pid=ImgRaw&r=0"},
+    {id:2,title:"Headphone",price:"20$",image:"https://th.bing.com/th/id/R.65729fdeff416fac6b2b179f868299be?rik=IQWIKCeYUL8AbQ&pid=ImgRaw&r=0"},
+    {id:3,title:"Headphone",price:"20$",image:"https://static.vecteezy.com/system/resources/previews/001/207/171/original/music-equipment-headphone-png.png"},
+    {id:4,title:"Headphone",price:"20$",image:"https://th.bing.com/th/id/R.dc8092f686d7bbe41040a0c70c2ab598?rik=9iYzMY4EX4s1SQ&pid=ImgRaw&r=0"},
     {id:5,title:"Earbuds",price:"20$",image:"https://th.bing.com/th/id/R.bcd9b07fdd9096730f362ca60a2ad929?rik=Qd%2bFbewil0dC%2bw&pid=ImgRaw&r=0"},
     {id:6,title:"Earbuds",price:"20$",image:"https://www.pngmart.com/files/23/Earbuds-PNG-Image.png"},
     {id:7,title:"Realme Earbuds",price:"20$",image:"https://www.pngmart.com/files/23/Earbuds-PNG-Photos.png"},
@@ -125,16 +125,16 @@ export const products=[
     
   ]
   export const laptops=[
-    {id:1,title:"Lamp",price:"20$",image:"https://th.bing.com/th/id/R.b0e7565c0f30fef351b63a528ede8875?rik=FndvREqAcsUhzw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2flaptop-hd-png-laptop-notebook-png-image-1358.png&ehk=xGAMsXKrMflq7kfkG8ITBEJ768O5%2b25MIMjQ%2fKvdKxg%3d&risl=&pid=ImgRaw&r=0"},
-    {id:2,title:"Lamp",price:"20$",image:"https://th.bing.com/th/id/R.ca0bffdfa997c572d4c48b645e94662b?rik=2dR6CnUofe2ADQ&pid=ImgRaw&r=0"},
-    {id:3,title:"Lamp",price:"20$",image:"https://www.pngarts.com/files/4/Dell-Laptop-PNG-Background-Image.png"},
-    {id:4,title:"Lamp",price:"20$",image:"https://www.pngarts.com/files/4/Dell-Laptop-Download-PNG-Image.png"},
-    {id:5,title:"Lamp",price:"20$",image:"https://www.pngmart.com/files/7/Dell-Laptop-PNG-Transparent.png"},
-    {id:6,title:"Tabel Lamp",price:"20$",image:"https://th.bing.com/th/id/R.005e0743672ea32291a83419f95f98bc?rik=yqdbUFO7dZQzqQ&pid=ImgRaw&r=0"},
-    {id:7,title:"Lamp",price:"20$",image:"https://purepng.com/public/uploads/large/purepng.com-macbookmacbooknotebookcomputersapple-inmacbook-familyapple-laptops-17015283614248ry9g.png"},
-    {id:8,title:"Lamp",price:"20$",image:"https://pnghq.com/wp-content/uploads/2023/02/apple-laptop-images-png-2186-768x513.png"},
-    {id:9,title:"Lamp",price:"20$",image:"https://th.bing.com/th/id/R.5fe7b7a2e385fcf06420e5c751e8c178?rik=fWZ3Q3A2vrAZbQ&riu=http%3a%2f%2fpngimg.com%2fuploads%2fmacbook%2fmacbook_PNG52.png&ehk=gaku6AjM%2b2f3ly7IrSakwHHRAmXB%2bYKn0YSmL1fhdIw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"},
-    {id:10,title:"Lamp",price:"20$",image:"https://www.pngall.com/wp-content/uploads/8/Lenovo-Laptop-PNG-Picture.png"},
+    {id:1,title:"Laptop",price:"20$",image:"https://th.bing.com/th/id/R.b0e7565c0f30fef351b63a528ede8875?rik=FndvREqAcsUhzw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2flaptop-hd-png-laptop-notebook-png-image-1358.png&ehk=xGAMsXKrMflq7kfkG8ITBEJ768O5%2b25MIMjQ%2fKvdKxg%3d&risl=&pid=ImgRaw&r=0"},
+    {id:2,title:"Laptop",price:"20$",image:"https://th.bing.com/th/id/R.ca0bffdfa997c572d4c48b645e94662b?rik=2dR6CnUofe2ADQ&pid=ImgRaw&r=0"},
+    {id:3,title:"Laptop",price:"20$",image:"https://www.pngarts.com/files/4/Dell-Laptop-PNG-Background-Image.png"},
+    {id:4,title:"Laptop",price:"20$",image:"https://www.pngarts.com/files/4/Dell-Laptop-Download-PNG-Image.png"},
+    {id:5,title:"Laptop",price:"20$",image:"https://www.pngmart.com/files/7/Dell-Laptop-PNG-Transparent.png"},
+    {id:6,title:"Laptop",price:"20$",image:"https://th.bing.com/th/id/R.005e0743672ea32291a83419f95f98bc?rik=yqdbUFO7dZQzqQ&pid=ImgRaw&r=0"},
+    {id:7,title:"Laptop",price:"20$",image:"https://purepng.com/public/uploads/large/purepng.com-macbookmacbooknotebookcomputersapple-inmacbook-familyapple-laptops-17015283614248ry9g.png"},
+    {id:8,title:"Laptop",price:"20$",image:"https://pnghq.com/wp-content/uploads/2023/02/apple-laptop-images-png-2186-768x513.png"},
+    {id:9,title:"Laptop",price:"20$",image:"https://th.bing.com/th/id/R.5fe7b7a2e385fcf06420e5c751e8c178?rik=fWZ3Q3A2vrAZbQ&riu=http%3a%2f%2fpngimg.com%2fuploads%2fmacbook%2fmacbook_PNG52.png&ehk=gaku6AjM%2b2f3ly7IrSakwHHRAmXB%2bYKn0YSmL1fhdIw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"},
+    {id:10,title:"Laptop",price:"20$",image:"https://www.pngall.com/wp-content/uploads/8/Lenovo-Laptop-PNG-Picture.png"},
     
   ]
   export const cloths=[

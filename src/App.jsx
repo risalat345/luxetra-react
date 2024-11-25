@@ -29,7 +29,7 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/luxetra-react" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/mp" element={<MobileProduct />} />
             <Route path="/bags" element={<Bags />} />
             <Route path="/shoes" element={<Shoes />} />

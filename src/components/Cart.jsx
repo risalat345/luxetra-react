@@ -48,7 +48,7 @@ const Cart = () => {
   };
 
   return (
-    <div className="w-[90%] max-w-[1200px] mx-auto mt-20">
+    <div className="w-[90%] max-w-[1200px] mx-auto py-14">
       <h1 className="text-center font-mono font-bold text-4xl my-2">Cart</h1>
       {cart.length === 0 ? (
         <p className="text-center text-lg">Cart is empty</p>
@@ -59,7 +59,7 @@ const Cart = () => {
             {cart.map((item) => (
               <div
                 key={item.id}
-                className="flex w-full px-3 items-center justify-between md:p-4 border rounded-lg shadow-sm"
+                className="flex w-full px-3 items-center justify-between md:p-4 border border-black rounded-lg shadow-sm"
               >
                 <div className="w-fit md:w-3/12">
                   <img
@@ -82,16 +82,16 @@ const Cart = () => {
               </div>
             ))}
           </div>
-          <div className="cart-totals p-4 border-t-2">
-            <div className="flex flex-row md:flex-col sm:flex-row justify-between text-lg font-semibold mb-2">
+          <div className="cart-totals p-4 rounded-lg border border-gray-500">
+            <div className="flex flex-col sm:flex-row justify-between text-lg font-semibold mb-2">
               <span>Cart Total:</span>
               <span>${cartTotal.toFixed(2)}</span>
             </div>
-            <div className="flex flex-row md:flex-col sm:flex-row justify-between text-lg font-semibold mb-2">
+            <div className="flex flex-col sm:flex-row justify-between text-lg font-semibold mb-2">
               <span>Delivery Amount:</span>
               <span>${deliveryAmount.toFixed(2)}</span>
             </div>
-            <div className="flex flex-row md:flex-col sm:flex-row justify-between text-lg font-bold">
+            <div className="flex flex-col sm:flex-row justify-between text-lg font-bold">
               <span>Grand Total:</span>
               <span>${grandTotal.toFixed(2)}</span>
             </div>

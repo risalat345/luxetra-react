@@ -85,7 +85,7 @@ const Navbar = () => {
           &times;
         </button>
         <ul className="flex flex-col items-center gap-6 mt-16">
-          <NavLink to="/" onClick={toggleMenu} className="text-lg">
+          <NavLink to="/luxetra-react" onClick={toggleMenu} className="text-lg">
             Home
           </NavLink>
           <NavLink to="/about" onClick={toggleMenu} className="text-lg">
@@ -102,7 +102,7 @@ const Navbar = () => {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-6 text-lg">
-        <NavLink to="/" className="hover:text-gray-300">
+        <NavLink to="/luxetra-react" className="hover:text-gray-300">
           Home
         </NavLink>
         <NavLink to="/about" className="hover:text-gray-300">

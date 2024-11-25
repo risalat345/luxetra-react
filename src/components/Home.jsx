@@ -10,12 +10,15 @@ function Home() {
 
   return (
    <>
+   <div className="mx-4">
+    
 <Carousel/>
 <NewProduct/>
 <Discount/>
 <PopularCategories/>
 <Review/>
 <Footer/>
+   </div>
 </>
   )
 }

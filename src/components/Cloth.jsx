@@ -20,13 +20,13 @@ const Cloth = () => {
   };
 
   return (
-    <div className="w-[90%] max-w-[1200px] mx-auto mt-14">
+    <div className="w-[90%] max-w-[1200px] mx-auto mt-16">
       <h1 className="text-center font-mono font-bold text-4xl my-4">Cloth</h1>
       <div className="card-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {clothsData.map((cloth) => (
           <div
             key={cloth.id}
-            className="card flex flex-col justify-between items-center border border-gray-200 rounded-lg p-4 shadow-md"
+            className="card flex flex-col justify-between items-center border border-black rounded-lg p-10 shadow-md"
           >
             <div className="h-[60%] flex justify-center items-center">
               <img

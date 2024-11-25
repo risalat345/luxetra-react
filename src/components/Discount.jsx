@@ -20,16 +20,16 @@ const Discount = () => {
 
       {/* Cyber Monday Banner */}
       <div className='hidden md:block'>
-      <div className="w-full flex flex-col md:flex-row h-auto border bg-pink-300 border-red-600 my-3">
-        <div className="w-full md:w-2/6 p-4">
+      <div className="w-full rounded-lg flex flex-col md:flex-row h-auto border bg-pink-300 border-red-600 my-3">
+        <div className="w-full md:w-2/6">
           <img
-            className="w-full mx-auto my-4"
+            className="w-full mx-auto"
             width={250}
             src="https://www.mdc.edu/fashion/img/fashion-forward-model.png"
             alt="Cyber Monday Model"
           />
         </div>
-        <div className="w-full md:w-4/6 text-center my-3">
+        <div className="w-full md:w-4/6 text-center mt-10">
           <p className="text-5xl sm:text-6xl font-bold text-stroke">CYBER</p>
           <p className="text-4xl sm:text-5xl font-bold text-stroke">MONDAY</p>
           <p className="bg-yellow-400 mx-auto my-2 w-fit text-black font-bold px-10 py-2">60% DISCOUNT</p>
@@ -37,15 +37,6 @@ const Discount = () => {
         </div>
       </div>
       </div>
-      {/* Commented Code */}
-      {/* <div className="flex gap-3 mt-3">
-        <div className="w-3/6 h-48 border bg-red-500">
-          <img className="w-full h-full object-cover mx-auto rounded-lg" src="https://th.bing.com/th/id/R.c3abe583a4707223b41b9a872f2e8684?rik=4rNv8J%2ftlqsWBg&pid=ImgRaw&r=0" alt=""/>
-        </div>
-        <div className="w-3/6 h-48 border bg-white">
-          <img className="w-full h-full object-cover mx-auto rounded-lg" src="" alt=""/>
-        </div>
-      </div> */}
     </div>
   );
 };

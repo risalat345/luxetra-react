@@ -31,7 +31,7 @@ function MobileProduct() {
         {productData.map((product) => (
           <div
             key={product.id}
-            className="card flex flex-col justify-between items-center border border-gray-200 rounded-lg p-4 shadow-md"
+            className="card flex flex-col justify-between items-center border border-black rounded-lg p-10 shadow-md"
           >
             <div className="h-[60%] flex justify-center items-center">
               <img

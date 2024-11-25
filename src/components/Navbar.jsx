@@ -1,37 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Track the state of the mobile menu
-  const [isScrolled, setIsScrolled] = useState(false); // Track scrolling to apply blur effect
 
   // Toggle the mobile menu
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Effect to handle scroll events
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true); // Add blur effect when scrolled
-      } else {
-        setIsScrolled(false); // Remove blur when at the top
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll); // Listen for scroll events
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll); // Cleanup on unmount
-    };
-  }, []);
-
   return (
     <nav
-      className={`text-white bg-black flex justify-between items-center p-3 fixed top-0 left-0 w-full z-50 transition-all ${
-        isScrolled ? "md:backdrop-blur-md md:bg-white/30" : ""
-      }`}
+      className="text-white bg-black flex justify-between items-center p-2 fixed top-0 left-0 w-full z-50"
     >
       {/* Logo */}
       <div className="flex items-center gap-2">
@@ -101,7 +81,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Menu */}
-      <ul className="hidden md:flex gap-6 text-lg">
+      <ul className="hidden md:flex gap-6 text-lg font-bold" >
         <NavLink to="/luxetra-react" className="hover:text-gray-300">
           Home
         </NavLink>

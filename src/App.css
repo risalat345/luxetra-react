@@ -8,8 +8,9 @@ li:hover{
   color: white;
 }
 body{
-  background-color:rgb(62, 201, 201);
+  background-color:whitesmoke;
   overflow-x: hidden;
+  /* margin:0 1rem; */
 }
 /* For modern browsers with scrollbar customization support */
 .container::-webkit-scrollbar {

@@ -20,7 +20,7 @@ const Shoes = () => {
                 {shoes.map((shoe) => (
                     <div
                         key={shoe.id}
-                        className="flex flex-col items-center justify-between gap-4 border border-gray-200 rounded-lg p-4 shadow-md"
+                        className="flex flex-col items-center justify-between gap-4 border border-black rounded-lg p-10 shadow-md"
                     >
                         <div className="w-full flex justify-center">
                             <img
